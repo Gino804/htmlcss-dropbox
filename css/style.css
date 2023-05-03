@@ -1,0 +1,205 @@
+/* CSS Reset */
+
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+/* Generics */
+
+body
+{
+    font-family:'Open Sans', sans-serif;
+    margin-top:80px;
+}
+
+header
+{
+    background-color:white;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1;
+    height:80px;
+    border:2px dashed black;
+}
+
+/* Utils */
+
+.container
+{
+    max-width:50vw;
+    margin:auto;
+}
+
+/* Jumbotron */
+
+.jumbotron
+{
+    background-color:#B4D0E7;
+    height:800px; 
+    padding-top:80px;
+    margin-bottom:100px;
+}
+
+.jumbo-container
+{
+    max-width:60vw;
+    margin:auto;
+    height:100%;
+    border:2px dashed black;
+}
+
+/* Business plan */
+
+.business-plan
+{
+    height:1200px;
+    border:2px dashed black;
+}
+
+/* Find a partner */
+
+.find-partner
+{
+    width:100%;
+    margin-top:200px;
+    height:500px;
+    border:2px dashed black;
+}
+
+/* Dropbox Business */
+
+.dropbox-business
+{
+    margin-top:200px;
+}
+
+.dropbox-business .row
+{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.dropbox-business .column
+{
+    flex-basis:calc(100% / 3);
+    height:300px;
+    border:2px dashed black;
+}
+
+/* Find out more */
+
+.find-out-more
+{
+    margin-top:200px;
+    height:300px;
+    border:2px dashed black;
+}
+
+/* Partners */
+
+.partners
+{
+    margin-top:200px;
+    display:flex;
+    height:620px;
+    border:2px dashed black;
+}
+
+.partners>div
+{
+    flex-basis:calc(100%/3);
+    height:100%;
+}
+
+.partners-left, .partners-right
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.partner-description
+{
+    background-color:#F5F5F5;
+}
+
+.partner 
+{
+    flex-basis:50%;
+    height:50%;
+    border:2px dashed black;
+}
+
+/* Free trial */
+
+.free-trial
+{
+    background-color:#B4D0E7;
+    height:300px;
+}
+
+.free-trial>.container
+{
+    display:flex;
+    height:100%;
+}
+
+.free-trial>.container>div
+{
+    flex-basis:50%;
+    height:100%;
+    border:2px dashed black;
+}
+
+/* Frequent questions */
+
+.questions
+{
+    width:100%;
+    margin:200px 0;
+    height:500px;
+    border:2px dashed black;
+}
+
+/* Footer */
+
+footer
+{
+    background-color:black;
+    color:white;
+    height:600px;
+    padding-top:100px;
+}
+
+.footer-container
+{
+    max-width:60vw;
+    margin:auto;
+    height:100%;
+}
+
+.footer-flex
+{
+    display:flex;
+    height:60%;
+}
+
+.footer-flex>div
+{
+    flex-basis:20%;
+    height:100%;
+    border:2px dashed white;
+}
+
+.languages
+{
+    margin-top:100px;
+    width:15%;
+    height:100px;
+    border:2px dashed white;
+}
