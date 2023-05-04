@@ -40,6 +40,12 @@ ul
     list-style-type:none;
 }
 
+h1
+{
+    font-size:77px;
+    margin-bottom:-30px;
+}
+
 /* Utils */
 
 .container
@@ -99,7 +105,6 @@ header .button
 .jumbotron
 {
     background-color:#B4D0E7;
-    height:800px; 
     padding-top:80px;
     margin-bottom:100px;
 }
@@ -109,7 +114,51 @@ header .button
     max-width:60vw;
     margin:auto;
     height:100%;
-    border:2px dashed black;
+}
+
+.jumbo-flex
+{
+    display:flex;
+    position:relative;
+    top:80px;
+}
+
+.jumbo-text
+{
+    flex-basis:40%;
+}
+
+.jumbo-text>p:nth-child(1)
+{
+    line-height:21px;
+    margin-bottom:40px;
+}
+
+.jumbo-text>.button
+{
+    padding-top:13px;
+    padding-bottom:13px;
+}
+
+.jumbo-text>p:nth-child(3)
+{
+    margin-top:40px;
+    margin-bottom:60px;
+}
+
+.jumbo-text .fa-arrow-down
+{
+    font-size:55px;
+}
+
+.jumbo-img
+{
+    flex-basis:60%;
+}
+
+.jumbo-img>img
+{
+    height:450px;
 }
 
 /* Business plan */
