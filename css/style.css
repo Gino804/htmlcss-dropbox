@@ -46,6 +46,11 @@ h1
     margin-bottom:-30px;
 }
 
+h3
+{
+    font-size:25px;
+}
+
 /* Utils */
 
 .container
@@ -171,6 +176,7 @@ header .button
 .business-plan
 {
     margin-top:150px;
+    font-size:14px;
 }
 
 .business-plan>h2
@@ -222,7 +228,7 @@ header .button
     border:1px solid lightgray;
 }
 
-.business-flex .plan-header
+.plan-header
 {
     text-align:center;
     padding:10px 0;
@@ -244,7 +250,6 @@ header .button
 .business-flex h3
 {
     margin-top:40px;
-    font-size:25px;
 }
 
 .business-flex .plan-price>p:nth-child(2)
@@ -310,6 +315,47 @@ header .button
 .business-flex .plan-list>div
 {
     margin-top:20px;
+}
+
+.business-plan>.last-plan
+{
+    border:1px solid lightgray;
+    margin-top:50px;
+}
+
+.last-plan-container
+{
+    max-width:95%;
+    margin:0 auto;
+}
+
+.last-plan .flex>div:nth-child(1)
+{
+    flex-basis:70%;
+}
+
+.last-plan .flex>div:nth-child(2)
+{
+    flex-basis:30%;
+    text-align:right;
+    margin-top:30px;
+}
+
+.last-plan h3
+{
+    margin-top:30px;
+    margin-bottom:15px;
+}
+
+.last-plan p
+{
+    margin-top:40px;
+    margin-bottom:30px;
+}
+
+.last-plan a
+{
+    padding:10px 30px;
 }
 
 /* Find a partner */
