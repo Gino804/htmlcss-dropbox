@@ -584,9 +584,31 @@ header .button
 .questions
 {
     width:100%;
-    margin:200px 0;
-    height:500px;
-    border:2px dashed black;
+    margin:150px 0;
+}
+
+.questions>*
+{
+    border-bottom:1px solid black;
+}
+
+.questions>h2
+{
+    padding-bottom:50px;
+}
+
+.questions>div
+{
+    padding:40px 0;
+    font-weight:bold;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.questions i
+{
+    margin-right:50px;
+    font-size:10px;
 }
 
 /* Footer */
