@@ -56,6 +56,11 @@ h3
     font-size:25px;
 }
 
+a:hover
+{
+    text-decoration:underline;
+}
+
 /* Utils */
 
 .container
@@ -66,7 +71,6 @@ h3
 
 .button
 {
-    background-color:#0061FF;
     padding:8px 15px;
     text-decoration:none;
     color:white;
@@ -82,6 +86,18 @@ h3
     background-color:lightgray;
     height:2px;
 }
+
+.bg-blue
+{
+    background-color:#0061FF;
+}
+
+.button.bg-blue:hover
+{
+    background-color:#6a9ae7;
+}
+
+.button
 
 /* Header */
 
@@ -499,6 +515,12 @@ header .button
     display:flex;
     justify-content:center;
     align-items:center;
+    cursor:pointer;
+}
+
+.partner:hover
+{
+    border:10px solid rgba(255,255,255,0.5);
 }
 
 .partner>img
@@ -587,11 +609,6 @@ header .button
     margin:150px 0;
 }
 
-.questions>*
-{
-    border-bottom:1px solid black;
-}
-
 .questions>h2
 {
     padding-bottom:50px;
@@ -603,6 +620,48 @@ header .button
     font-weight:bold;
     justify-content:space-between;
     align-items:center;
+    border-bottom:1px solid black;
+    cursor:pointer;
+    flex-wrap:wrap;
+}
+
+.questions>div>div
+{
+    flex-basis:100%;
+    justify-content:space-between;
+}
+
+.questions .fa-chevron-up
+{
+    display:none;
+}
+
+.questions .answer
+{
+    display:none;
+    border-bottom:1px solid black;
+    padding:30px 0;
+    font-weight:normal;
+}
+
+.questions>div:hover
+{
+    border:none;
+}
+
+.questions>div:hover .fa-chevron-up
+{
+    display:block;
+}
+
+.questions>div:hover .fa-chevron-down
+{
+    display:none;
+}
+
+.questions>div:hover>.answer
+{
+    display:block;
 }
 
 .questions i
