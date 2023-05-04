@@ -554,15 +554,29 @@ header .button
     background-color:#B4D0E7;
 }
 
-.free-trial>.container
-{
-    display:flex;
-}
-
 .free-trial>.container>div
 {
     flex-basis:50%;
-    border:2px dashed black;
+    padding:100px 0;
+}
+
+.free-trial>.container>div:nth-child(2)
+{
+    text-align:center;
+    padding-top:120px;
+}
+
+.free-trial h2
+{
+    color:#631269;
+}
+
+.free-trial a
+{
+    color:black;
+    background-color:white;
+    padding:10px 30px;
+    text-decoration:none;
 }
 
 /* Frequent questions */
