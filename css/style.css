@@ -25,6 +25,7 @@ header
     z-index:1;
     height:70px;
     display:flex;
+    justify-content:space-between;
 }
 
 footer
@@ -97,31 +98,17 @@ a:hover
     background-color:#6a9ae7;
 }
 
-.button
-
 /* Header */
 
-header>div
+header>nav
 {
     display:flex;
     align-items:center;
-    height:100%;
-    flex-basis:50%;
 }
 
-.header-right
-{
-    justify-content:right;
-}
-
-header>div>*
+header>nav>*
 {
     margin-left:20px;
-}
-
-header ul
-{
-    display:flex;
 }
 
 header ul a
